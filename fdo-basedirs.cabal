@@ -1,0 +1,19 @@
+Name:           fdo-basedirs
+Version:        0.6.1
+Cabal-Version:  >= 1.2
+Build-Type:     Simple
+License:        BSD3
+License-File:   LICENSE
+Copyright:      (c) 2008 Geoffrey Reedy
+Author:         Geoffrey Reedy
+Maintainer:     geoff+hs-fdo-basedirs@programmer-monk.net
+Stability:      provisional
+Synopsis:       Implementation of the XDG Base Directory Specification (0.6)
+Category:       System
+
+Library
+  Exposed-Modules:      System.Freedesktop.Directories
+  Build-Depends:
+    base >= 3,
+    filepath >= 1.0.0.0,
+    directory >= 1.0.0.0
